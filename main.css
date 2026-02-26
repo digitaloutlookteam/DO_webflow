@@ -9,6 +9,9 @@ body {
   overflow-x: hidden;
   font-family: Arial, system-ui, sans-serif;
 }
+body .w-button:hover {
+  background: white;
+}
 body .w-background-video {
   position: unset;
   height: 100%;
@@ -149,31 +152,6 @@ body .section-brand-slider {
   justify-content: space-around;
   width: 100%;
   overflow: hidden;
-}
-body .section-brand-slider .swiper {
-  width: 100%;
-}
-body .section-brand-slider .swiper-free-mode > .swiper-wrapper {
-  transition-timing-function: linear !important;
-  will-change: transform;
-  width: -moz-max-content;
-  width: max-content;
-}
-body .section-brand-slider .logo-list-wrapper {
-  overflow-x: hidden;
-  position: relative;
-  width: 100%;
-}
-body .section-brand-slider .wrap-logo.swiper {
-  margin: 0;
-  position: static;
-}
-body .section-brand-slider .list-logo.swiper-wrapper {
-  display: flex;
-  align-items: center;
-}
-body .section-brand-slider .logo-list-wrapper img {
-  margin: 0 auto;
 }
 body .under-line-wrap {
   display: block;
