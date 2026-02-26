@@ -108,10 +108,10 @@ body .section-featured-projects .project-heading-wrapper a.button:hover {
   background: white;
 }
 body .section-featured-projects .project-item-featured:hover .featured-heading a {
-  color: rgb(255, 255, 255);
+  color: rgb(50, 192, 207);
 }
 body .section-featured-projects .featured-heading:hover a {
-  color: rgb(255, 255, 255);
+  color: rgb(50, 192, 207);
 }
 body .section-featured-projects .featured-tags a {
   cursor: text;
@@ -657,7 +657,7 @@ body .section-list-services .service-list-item .item-service .service-panel-roll
   }
 }
 @media screen and (min-width: 1280px) and (max-width: 1499px) {
-  body .section-list-services {
+  body .section-list-services .service-list-item {
     max-width: 90%;
     margin: 0 auto;
   }
@@ -1903,6 +1903,10 @@ body .dark-mode .nav-menu .nav-has-mega .mega-menu .menu_sub-wrap .right-panel .
   margin-bottom: -30px;
   animation-delay: 0s;
 }
+.ecosystem-spoke:nth-child(1) .ecosystem-spoke-logos {
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
 .ecosystem-spoke:nth-child(2) {
   grid-area: spoke-fulfillment;
   animation-delay: 0.2s;
@@ -1961,7 +1965,7 @@ body .dark-mode .nav-menu .nav-has-mega .mega-menu .menu_sub-wrap .right-panel .
   align-items: center;
   gap: 24px 12px;
   margin: 0 auto;
-  max-width: 200px;
+  max-width: 300px;
 }
 .ecosystem-spoke-logos:has(img) img {
   -o-object-fit: contain;
