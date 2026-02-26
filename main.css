@@ -104,6 +104,18 @@ body .section-featured-projects .swiper .swiper-button-prev {
   transform: translateY(-50%);
   margin-top: -23px;
 }
+body .section-featured-projects .project-heading-wrapper a.button:hover {
+  background: white;
+}
+body .section-featured-projects .project-item-featured:hover .featured-heading a {
+  color: rgb(255, 255, 255);
+}
+body .section-featured-projects .featured-heading:hover a {
+  color: rgb(255, 255, 255);
+}
+body .section-featured-projects .featured-tags a {
+  cursor: text;
+}
 body .section-featured-projects .featured-tags .tag-item {
   position: relative;
   padding-left: 10px;
@@ -468,7 +480,7 @@ body .section-list-services .service-list-item .item-service .service-panel-roll
   color: white;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1500px) {
   body .section-list-services .service-list-item {
     align-items: end;
   }
@@ -644,7 +656,13 @@ body .section-list-services .service-list-item .item-service .service-panel-roll
     cursor: pointer;
   }
 }
-@media screen and (min-width: 992px) and (max-width: 1439px) {
+@media screen and (min-width: 1280px) and (max-width: 1499px) {
+  body .section-list-services {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1499px) {
   body .service-list-item {
     grid-column-gap: 20px;
     grid-row-gap: 20px;
@@ -1019,6 +1037,13 @@ body .section-list-services .service-list-item .item-service .service-panel-roll
   body .ecosystem-hub-title.heading-icon-on-text .font-system {
     font-size: 50px !important;
   }
+  body .section-ecosystem .under-line-wrap.js-line-reveal.icon-ecosytem {
+    bottom: -22px;
+    right: auto;
+    left: 50%;
+    transform: translate(-50%);
+    margin-left: 47px;
+  }
   body .hero-heading {
     font-size: 50px !important;
   }
@@ -1135,22 +1160,25 @@ body .section-list-services .service-list-item .item-service .service-panel-roll
   }
 }
 @media screen and (max-width: 767px) {
-  .section-trusted-featured .item-values-cards {
+  body .section-trusted-featured .item-values-cards {
     display: block;
     overflow: hidden;
     margin: 0 -16px;
     padding: 0 16px;
   }
-  .section-trusted-featured .item-values-cards .swiper-wrapper {
+  body .section-trusted-featured .item-values-cards .swiper-wrapper {
     display: flex;
     gap: 0;
     align-items: stretch;
   }
-  .section-trusted-featured .values-card {
+  body .section-trusted-featured .values-card {
     height: 100%;
   }
-  .section-trusted-featured .swiper-slide {
+  body .section-trusted-featured .swiper-slide {
     height: auto;
+  }
+  body .section-list-services .item-service .service-panel-rollover {
+    max-width: 100%;
   }
 }
 body .nav-menu .nav-item:hover .w-nav-link {
@@ -1863,7 +1891,8 @@ body .dark-mode .nav-menu .nav-has-mega .mega-menu .menu_sub-wrap .right-panel .
 
 .ecosystem-spoke {
   width: 100%;
-  max-width: 264px;
+  max-width: -moz-max-content;
+  max-width: max-content;
   text-align: center;
   transition: border-color 0.25s, background 0.25s, transform 0.25s, box-shadow 0.25s;
   animation: ecosystem-float 2s ease-in-out infinite;
@@ -1921,7 +1950,7 @@ body .dark-mode .nav-menu .nav-has-mega .mega-menu .menu_sub-wrap .right-panel .
 }
 
 .ecosystem-spoke-logos:has(img:nth-last-child(5):first-child) {
-  max-width: 264px;
+  max-width: 300px;
 }
 
 .ecosystem-spoke-logos {
@@ -1935,8 +1964,6 @@ body .dark-mode .nav-menu .nav-has-mega .mega-menu .menu_sub-wrap .right-panel .
   max-width: 200px;
 }
 .ecosystem-spoke-logos:has(img) img {
-  max-width: 51px;
-  max-height: 51px;
   -o-object-fit: contain;
      object-fit: contain;
   display: inline-block;
