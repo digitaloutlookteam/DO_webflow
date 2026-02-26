@@ -242,7 +242,7 @@ body form input.has-complete {
     width: 52px;
     height: 52px;
     top: 37.5%;
-    margin: 5px 0 0;
+    margin: 4px 0 0;
   }
   body .section-featured-projects .swiper div[class*=swiper-button-]:after {
     background-size: 8px;
@@ -1216,6 +1216,7 @@ body .nav-menu .nav-has-mega .mega-menu .menu_sub-wrap .left-panel .menu-item {
 body .nav-menu .nav-has-mega .mega-menu .menu_sub-wrap .left-panel .menu-item.has-group.active-menu a {
   color: rgb(50, 192, 207);
   font-family: Testmartinaplantijn Light, Arial, sans-serif;
+  font-style: italic;
 }
 body .nav-menu .nav-has-mega .mega-menu .menu_sub-wrap .left-panel .menu-item.has-group.active-menu a:after {
   background: url("https://cdn.prod.website-files.com/695b0318a011b846bd6be9ac/69787ce4abfd27f19ad60fe7_icon-blue-active.svg") no-repeat;
@@ -1241,6 +1242,7 @@ body .nav-menu .nav-has-mega .mega-menu .menu_sub-wrap .left-panel .menu-item.ha
 body .nav-menu .nav-has-mega .mega-menu .menu_sub-wrap .left-panel .menu-item:hover a {
   color: rgb(50, 192, 207);
   font-family: Testmartinaplantijn Light, Arial, sans-serif;
+  font-style: italic;
 }
 body .nav-menu .nav-has-mega .mega-menu .menu_sub-wrap .left-panel .menu-item a {
   font-family: "Test Martina Plantijn";
