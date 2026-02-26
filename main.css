@@ -9,9 +9,6 @@ body {
   overflow-x: hidden;
   font-family: Arial, system-ui, sans-serif;
 }
-body .w-button:hover {
-  background: white;
-}
 body .w-background-video {
   position: unset;
   height: 100%;
