@@ -468,7 +468,7 @@ body .section-list-services .service-list-item .item-service .service-panel-roll
   color: white;
 }
 
-@media screen and (min-width: 1441px) {
+@media screen and (min-width: 1440px) {
   body .section-list-services .service-list-item {
     align-items: end;
   }
@@ -618,7 +618,7 @@ body .section-list-services .service-list-item .item-service .service-panel-roll
     margin-top: 32px;
   }
   body .section-list-services .service-list-item .item-service .service-panel-rollover .callout-services {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     gap: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -644,7 +644,7 @@ body .section-list-services .service-list-item .item-service .service-panel-roll
     cursor: pointer;
   }
 }
-@media screen and (min-width: 992px) and (max-width: 1440px) {
+@media screen and (min-width: 992px) and (max-width: 1439px) {
   body .service-list-item {
     grid-column-gap: 20px;
     grid-row-gap: 20px;
@@ -734,9 +734,24 @@ body .section-list-services .service-list-item .item-service .service-panel-roll
     pointer-events: none;
     z-index: 99999;
     padding: 62px 32px 32px;
-    overflow-y: scroll;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #999 transparent;
     text-align: center;
     gap: 20px;
+  }
+  body .service-list-item .item-service .service-panel-rollover::-webkit-scrollbar {
+    width: 8px;
+  }
+  body .service-list-item .item-service .service-panel-rollover::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  body .service-list-item .item-service .service-panel-rollover::-webkit-scrollbar-thumb {
+    background: #999;
+    border-radius: 8px;
+  }
+  body .service-list-item .item-service .service-panel-rollover::-webkit-scrollbar-thumb:hover {
+    background: #666;
   }
   body .service-list-item .item-service .service-panel-rollover h3 {
     font-family: Test Martina Plantijn, serif;
