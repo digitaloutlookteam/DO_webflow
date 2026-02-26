@@ -724,17 +724,19 @@ body .section-list-services .service-list-item .item-service .service-panel-roll
   body .service-list-item .item-service .service-panel-rollover {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     position: absolute;
     top: 0;
     right: 0;
     width: 100%;
     height: 100%;
     opacity: 0;
-    transition: transform 0.35s, opacity 0.25s;
     pointer-events: none;
     z-index: 99999;
-    padding: 50px 32px 32px;
-    overflow: hidden;
+    padding: 62px 32px 32px;
+    overflow-y: scroll;
+    text-align: center;
+    gap: 20px;
   }
   body .service-list-item .item-service .service-panel-rollover h3 {
     font-family: Test Martina Plantijn, serif;
@@ -749,8 +751,25 @@ body .section-list-services .service-list-item .item-service .service-panel-roll
     margin-bottom: 20px;
     color: white;
     font-size: 14px;
+    line-height: 160%;
     max-width: 80%;
     margin: 0 auto;
+  }
+  body .service-list-item .item-service .service-panel-rollover .w-richtext ul ol {
+    max-width: -moz-max-content;
+    max-width: max-content;
+    margin: 0 auto;
+  }
+  body .service-list-item .item-service .service-panel-rollover .w-richtext ul li:before {
+    content: "";
+    background: #fff;
+    height: 4px;
+    width: 4px;
+    border-radius: 100%;
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
   body .service-list-item .item-service .service-panel-rollover .callout-services {
     margin-bottom: 20px;
@@ -762,7 +781,7 @@ body .section-list-services .service-list-item .item-service .service-panel-roll
     display: inline-block;
     font-size: 14px;
     background: #fff;
-    padding: 10px 14px;
+    padding: 9px 14px;
     border-radius: 4px;
     text-decoration: none;
   }
