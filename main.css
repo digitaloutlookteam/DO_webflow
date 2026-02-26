@@ -1016,10 +1016,19 @@ body .section-list-services .service-list-item .item-service .service-panel-roll
   body .ecosystem-hub-title.heading-icon-on-text {
     font-size: 50px !important;
   }
+  body .ecosystem-hub-title.heading-icon-on-text .font-system {
+    font-size: 50px !important;
+  }
   body .hero-heading {
     font-size: 50px !important;
   }
+  body .hero-heading .font-system {
+    font-size: 50px !important;
+  }
   body .heading, body .heading-custom {
+    font-size: 50px !important;
+  }
+  body .heading .font-system, body .heading-custom .font-system {
     font-size: 50px !important;
   }
   body .feature-title {
