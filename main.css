@@ -722,7 +722,8 @@ body .section-list-services .service-list-item .item-service .service-panel-roll
     pointer-events: auto;
   }
   body .service-list-item .item-service .service-panel-rollover {
-    display: block;
+    display: flex;
+    flex-direction: column;
     position: absolute;
     top: 0;
     right: 0;
@@ -732,7 +733,7 @@ body .section-list-services .service-list-item .item-service .service-panel-roll
     transition: transform 0.35s, opacity 0.25s;
     pointer-events: none;
     z-index: 99999;
-    padding: 50px 32px;
+    padding: 50px 32px 32px;
     overflow: hidden;
   }
   body .service-list-item .item-service .service-panel-rollover h3 {
@@ -741,12 +742,15 @@ body .section-list-services .service-list-item .item-service .service-panel-roll
     font-size: 28px;
     line-height: 1.1;
     text-align: center;
-    margin: 0 0 32px;
+    margin: 0;
     color: #fff;
   }
   body .service-list-item .item-service .service-panel-rollover .w-richtext {
     margin-bottom: 20px;
     color: white;
+    font-size: 14px;
+    max-width: 80%;
+    margin: 0 auto;
   }
   body .service-list-item .item-service .service-panel-rollover .callout-services {
     margin-bottom: 20px;
@@ -762,11 +766,15 @@ body .section-list-services .service-list-item .item-service .service-panel-roll
     border-radius: 4px;
     text-decoration: none;
   }
+  body .service-list-item .item-service .service-panel-rollover .main-hover-button {
+    text-align: center;
+    margin: 0 auto;
+  }
   body .service-list-item .item-service .service-panel-rollover .button-2.w-button {
-    margin-top: auto;
     width: 100%;
     border-radius: unset;
     padding: 17px 20px;
+    min-width: 274px;
   }
   body .service-list-item .item-service .service-panel-rollover .button-close-panel {
     display: block;
