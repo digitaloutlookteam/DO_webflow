@@ -13,6 +13,9 @@ body h1 span, body h2 span, body h3 span, body h4 span, body h5 span, body h6 sp
   font-family: Testmartinaplantijn Light, Arial, sans-serif;
   font-style: italic;
 }
+body .w-nav-link.w--current {
+  color: rgb(50, 192, 207);
+}
 body .w-background-video {
   position: unset;
   height: 100%;
@@ -153,6 +156,9 @@ body .section-brand-slider {
   justify-content: space-around;
   width: 100%;
   overflow: hidden;
+}
+body .section-brand-slider .swiper-wrapper {
+  display: flex;
 }
 body .under-line-wrap {
   display: block;
@@ -477,6 +483,11 @@ section.hero-without-image .content-section a {
 body .section-list-services .service-list-item .item-service .service-panel-rollover .callout-services a:hover {
   background: rgba(0, 0, 0, 0.24);
   color: white;
+}
+
+.section-cms-pages .w-row {
+  margin-left: -21px;
+  margin-right: -21px;
 }
 
 @media screen and (min-width: 1500px) {
