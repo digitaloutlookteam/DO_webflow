@@ -489,6 +489,9 @@ body .section-list-services .service-list-item .item-service .service-panel-roll
   margin-left: -21px;
   margin-right: -21px;
 }
+.section-cms-pages .w-row .collection-item-content:hover h3 {
+  color: rgb(50, 192, 207);
+}
 
 @media screen and (min-width: 1500px) {
   body .section-list-services .service-list-item {
@@ -1189,6 +1192,10 @@ body .section-list-services .service-list-item .item-service .service-panel-roll
   }
   body .section-list-services .item-service .service-panel-rollover {
     max-width: 100%;
+  }
+  body .section-cms-pages .w-row {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 body .nav-menu .nav-item:hover .w-nav-link {
