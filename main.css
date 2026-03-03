@@ -111,6 +111,9 @@ body .section-featured-projects .swiper .swiper-button-prev {
   transform: translateY(-50%);
   margin-top: -23px;
 }
+body .section-featured-projects .project-image video {
+  border-radius: 4px;
+}
 body .section-featured-projects .project-heading-wrapper a.button:hover {
   background: white;
 }
