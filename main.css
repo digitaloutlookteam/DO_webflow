@@ -528,9 +528,11 @@ body .section-list-services .service-list-item .item-service .service-panel-roll
   vertical-align: middle;
   color: rgb(0, 0, 0);
   border-radius: 50%;
+  background: white;
 }
 .section-list-cms .pagination.project-list button.active {
   background-color: rgb(50, 192, 207);
+  color: white;
 }
 
 @media screen and (min-width: 1500px) {
