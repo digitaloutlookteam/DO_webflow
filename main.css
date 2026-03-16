@@ -485,14 +485,33 @@ section.hero-without-image .content-section a {
   text-decoration: none;
   position: relative;
 }
+.section-project-brief .brief-content .brief-right .brief-content-infor a[href]:before {
+  content: "";
+  position: absolute;
+  background: url("https://cdn.prod.website-files.com/695b0318a011b846bd6be9ac/69b7c87c22f17f484243583a_icon-link-more.PNG") no-repeat;
+  background-size: 17px;
+  width: 14px;
+  height: 15px;
+  right: -19px;
+  top: 8px;
+}
 .section-project-brief .brief-content .brief-right .brief-content-infor a[href]:after {
   content: "";
   position: absolute;
   bottom: -8px;
   left: 0;
-  width: 100%;
+  width: calc(100% + 16px);
   height: 1px;
   background: #32c0cf;
+}
+.section-project-brief .brief-content .brief-right .brief-content-infor a[href]:before {
+  content: "";
+  position: absolute;
+  background: url("https://cdn.prod.website-files.com/695b0318a011b846bd6be9ac/69b7c6f080404b5b61dfc008_icon-link-more.PNG") no-repeat;
+  background-size: 10px 10px;
+  width: 10px;
+  height: 10px;
+  right: 5px;
 }
 .section-project-brief .brief-content .brief-right .brief-content-infor a[href]:hover:after {
   display: none;
