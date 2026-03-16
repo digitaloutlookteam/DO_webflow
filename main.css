@@ -151,43 +151,23 @@ body .section-featured-projects .featured-tags .tag-item:before {
 body .w-slider-nav-invert > div.w-active {
   background-color: rgb(50, 192, 207);
 }
-body .section-brand-slider .logo-list-wrapper {
-  width: 100%;
-  overflow-x: hidden;
+body .section-brand-slider .home-logo-wrapper {
+  display: flex;
+}
+body .section-brand-slider .logos-marquee {
   -webkit-mask-image: linear-gradient(to right, transparent 0%, #f0f0f0 10%, #f0f0f0 90%, transparent 100%);
           mask-image: linear-gradient(to right, transparent 0%, #f0f0f0 10%, #f0f0f0 90%, transparent 100%);
 }
-body .section-brand-slider .wrap-logo {
-  display: flex;
-  width: 100%;
-  animation-duration: 15s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  justify-content: space-between;
-  animation-name: marquee2;
+body .section-brand-slider .logo-animate-alt {
+  animation: slidealt 10s infinite linear; /* Adjust the seconds for a slower or faster animation */
+  animation-direction: reverse;
 }
-body .section-brand-slider .list-logo {
-  display: inline-flex;
-  gap: 25px;
-  align-items: center;
-}
-body .section-brand-slider .list-logo div {
-  width: 200px;
-  list-style: none;
-  padding-right: 0;
-  font-size: 40px;
-  white-space: nowrap;
-  position: relative;
-  z-index: 222;
-  display: flex;
-  justify-content: center;
-}
-@keyframes marquee2 {
-  100% {
-    left: 0;
-  }
+@keyframes slidealt {
   0% {
-    left: -100%;
+    transform: translateX(calc(0% + 50px));
+  }
+  100% {
+    transform: translateX(-100%);
   }
 }
 body .under-line-wrap {
