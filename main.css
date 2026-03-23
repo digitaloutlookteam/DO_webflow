@@ -332,8 +332,9 @@ body form input.has-complete {
   }
   body section.section-feedback .has-icon-oval:after {
     width: 113px;
-    top: -8px;
+    top: -6px;
     left: -4px;
+    background-size: 113px 62px;
   }
   body section.hero-without-image .has-icon-oval.color-black:first-child:after {
     display: none;
