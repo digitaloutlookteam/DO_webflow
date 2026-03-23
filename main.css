@@ -228,11 +228,11 @@ body .has-arrow-right {
 body .has-arrow-right::after {
   content: "";
   position: absolute;
-  right: 17px;
+  right: -75px;
   bottom: 0;
-  width: 100%;
-  height: 100%;
-  background: url("https://cdn.prod.website-files.com/695b0318a011b846bd6be9ac/69c0ec2f28e003e2f8902f3b_icon-oval-black.svg") no-repeat center center;
+  width: 39px;
+  height: 84px;
+  background: url("https://cdn.prod.website-files.com/695b0318a011b846bd6be9ac/69c0f355478fad1e70727ab0_icon-arrow-black.svg") no-repeat center center;
   background-size: contain;
   pointer-events: none;
   z-index: -1;
