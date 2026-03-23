@@ -214,8 +214,8 @@ body .has-icon-oval::after {
 body .has-icon-oval.color-black::after {
   width: 219px;
   height: 89px;
-  top: -14px;
-  left: -89px;
+  top: 14px;
+  left: -28px;
   background: url("https://cdn.prod.website-files.com/695b0318a011b846bd6be9ac/69c0ec2f28e003e2f8902f3b_icon-oval-black.svg") no-repeat center center;
 }
 body .has-icon-oval.reveal::after {
