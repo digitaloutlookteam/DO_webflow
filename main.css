@@ -284,7 +284,7 @@ body form input.has-complete {
 }
 
 @media screen and (min-width: 992px) {
-  body section.hero-without-image .heading-discuss span.has-icon-oval:last-child {
+  body section.hero-without-image .heading-discuss span.has-icon-oval:last-child:after {
     display: none;
   }
 }
