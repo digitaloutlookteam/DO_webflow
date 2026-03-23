@@ -318,6 +318,24 @@ body form input.has-complete {
   body section .heading-fullwidth br {
     display: none;
   }
+  body section.section-feedback .has-icon-oval:after {
+    top: 3px;
+    left: -13px;
+  }
+  body section.hero-without-image .has-icon-oval.color-black:first-child:after {
+    display: none;
+  }
+  body section.hero-without-image .has-icon-oval.color-black:after {
+    width: 219px;
+    height: 83px;
+    top: -22px;
+    left: -98px;
+    background-size: 219px 56px !important;
+  }
+  body section .has-arrow-right {
+    right: 30px;
+    bottom: -138px;
+  }
   body .footer-wrapper .footer-block .footer-content-wrap {
     display: none;
   }
