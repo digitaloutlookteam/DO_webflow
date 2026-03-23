@@ -283,6 +283,11 @@ body form input.has-complete {
   background: rgb(230, 230, 230);
 }
 
+@media screen and (min-width: 992px) {
+  body section.hero-without-image .heading-discuss span.has-icon-oval:last-child {
+    display: none;
+  }
+}
 @media screen and (max-width: 991px) {
   body .section-featured-projects .button-swiper-next {
     width: 52px;
