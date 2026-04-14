@@ -2325,6 +2325,10 @@ body .dark-mode .nav-menu .nav-has-mega .mega-menu .menu_sub-wrap .right-panel .
   margin: 0 auto;
 }
 .section-header-blog .container-search .search-input {
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0px;
+  color: rgb(112, 112, 112);
   width: 572px;
   height: 50px;
   justify-content: space-between;
@@ -2340,7 +2344,7 @@ body .dark-mode .nav-menu .nav-has-mega .mega-menu .menu_sub-wrap .right-panel .
   position: absolute;
   right: 0;
   top: 27px;
-  right: 15px;
+  right: 9px;
   background: none;
   transform: translate(0, -50%);
 }
