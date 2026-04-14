@@ -2312,4 +2312,32 @@ body .dark-mode .nav-menu .nav-has-mega .mega-menu .menu_sub-wrap .right-panel .
     display: none;
   }
 }
+.blog-main-content .w-row:before,
+.w-row:after {
+  display: none;
+}
+
+.section-header-blog .container-search {
+  position: relative;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  margin: 0 auto;
+}
+.section-header-blog .container-search .search-input {
+  width: 572px;
+  height: 50px;
+  justify-content: space-between;
+  border-radius: 4px;
+  padding: 12px 16px;
+  background: rgb(248, 248, 248);
+  border: none;
+}
+.section-header-blog .container-search .btn-search {
+  position: absolute;
+  right: 0;
+  top: 27px;
+  right: 15px;
+  background: none;
+  transform: translate(0, -50%);
+}
 /*# sourceMappingURL=main.css.map */
