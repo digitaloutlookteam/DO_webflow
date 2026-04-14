@@ -2333,6 +2333,9 @@ body .dark-mode .nav-menu .nav-has-mega .mega-menu .menu_sub-wrap .right-panel .
   background: rgb(248, 248, 248);
   border: none;
 }
+.section-header-blog .container-search .search-input:focus, .section-header-blog .container-search .search-input:focus-visible {
+  outline: none;
+}
 .section-header-blog .container-search .btn-search {
   position: absolute;
   right: 0;
@@ -2342,7 +2345,7 @@ body .dark-mode .nav-menu .nav-has-mega .mega-menu .menu_sub-wrap .right-panel .
   transform: translate(0, -50%);
 }
 
-.blog-main-content .w-dyn-list:has(.w-dyn-empty) {
+.blog-main-content div.w-dyn-empty {
   display: none;
 }
 /*# sourceMappingURL=main.css.map */
