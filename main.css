@@ -2348,4 +2348,99 @@ body .dark-mode .nav-menu .nav-has-mega .mega-menu .menu_sub-wrap .right-panel .
 .blog-main-content div.w-dyn-empty {
   display: none;
 }
+
+.main-blog-details .header-right-blog img {
+  width: 100%;
+}
+
+.section-main-article .article-table-contents .toc-item {
+  width: 100%;
+  display: block;
+}
+.section-main-article .article-table-contents .toc-item a {
+  width: 100%;
+  display: block;
+  font-family: Lexend;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0px;
+  font-family: Lexend, sans-serif;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 12px 0 12px 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.section-main-article .article-table-contents .toc-item a:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 15px;
+  height: 15px;
+  background: rgba(0, 0, 0, 0.1);
+  background: url("https://cdn.prod.website-files.com/695b0318a011b846bd6be9ac/69de0910b6d6751379a444b1_arrow-right-blog.svg") no-repeat center center;
+}
+.section-main-article .w-richtext h1, .section-main-article .w-richtext h2, .section-main-article .w-richtext h3, .section-main-article .w-richtext h4, .section-main-article .w-richtext h5, .section-main-article .w-richtext h6 {
+  font-family: Test Martina Plantijn, Arial, sans-serif;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+.section-main-article .w-richtext h2 {
+  margin: 0 0 30px 0;
+  font-size: 39px;
+}
+.section-main-article .w-richtext h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.section-main-article .w-richtext *:not(h1, h2, h3, h4, h5, h6) {
+  font-family: Lexend, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0px;
+  color: rgb(112, 112, 112);
+}
+.section-main-article .w-richtext a {
+  text-decoration: underline;
+  color: rgb(50, 192, 207);
+}
+.section-main-article .w-richtext .button-secondary {
+  background: rgb(0, 0, 0);
+  border-radius: 4px;
+  padding: 12px 16px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  font-size: 16px;
+  line-height: 160%;
+  font-family: Lexend, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  display: inline-block;
+}
+.section-main-article .w-richtext .button-secondary:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+.section-main-article .w-richtext figure {
+  max-width: 100%;
+}
+.section-main-article .w-richtext figure figcaption {
+  margin-top: 20px;
+  text-align: left;
+  color: rgb(112, 112, 112);
+  font-size: 14px;
+  line-height: 160%;
+  letter-spacing: 0px;
+  font-family: Lexend, sans-serif;
+  font-weight: 400;
+}
 /*# sourceMappingURL=main.css.map */
