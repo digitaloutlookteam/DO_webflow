@@ -170,11 +170,23 @@ body .section-brand-slider .logo-animate-alt {
     transform: translateX(-100%);
   }
 }
+body .dropdown .w-icon-dropdown-toggle:after {
+  content: "";
+  background: url("https://cdn.prod.website-files.com/695b0318a011b846bd6be9ac/697721f7340c546d663da6f0_icon-down.svg");
+  background-size: 8px 8px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  right: 0;
+}
 body .dropdown:has(.w--open) {
   border-top: 1px solid rgb(50, 192, 207);
 }
 body .dropdown:has(.w--open) .heading-item-faqs {
   color: rgb(50, 192, 207);
+}
+body .dropdown:has(.w--open) .w-icon-dropdown-toggle:before {
+  display: none;
 }
 body .dropdown:has(.w--open) .w-icon-dropdown-toggle:after {
   background: url("https://cdn.prod.website-files.com/695b0318a011b846bd6be9ac/697721f79d74677fe53324ca_icon-active.svg");
@@ -398,6 +410,9 @@ body form input.has-complete {
   }
   .section-brand-slider .logo-list-wrapper .list-logo div {
     width: 100px;
+  }
+  .dropdown .heading-item-faqs {
+    max-width: 93%;
   }
 }
 section.hero-without-image .content-section a {
@@ -2409,6 +2424,9 @@ body .dark-mode .nav-menu .nav-has-mega .mega-menu .menu_sub-wrap .right-panel .
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   position: relative;
 }
+.section-main-article .article-table-contents .toc-item a:last-child {
+  border-bottom: none;
+}
 .section-main-article .article-table-contents .toc-item a:before {
   content: "";
   position: absolute;
@@ -2494,10 +2512,13 @@ body .dark-mode .nav-menu .nav-has-mega .mega-menu .menu_sub-wrap .right-panel .
 .section-main-article .accordion-block .dropdown-list {
   background: transparent;
 }
+.section-main-article .accordion-block .dropdown-list .w-richtext {
+  margin: 0;
+}
 .section-main-article .accordion-block .dropdown-list .w-richtext p {
   margin-bottom: 15px;
 }
-.section-main-article .article-table-contents:not(a) {
+.section-main-article .article-table-contents:not(:has(.toc-item a)) {
   display: none;
 }
 
@@ -2511,5 +2532,28 @@ body .dark-mode .nav-menu .nav-has-mega .mega-menu .menu_sub-wrap .right-panel .
 }
 .section-continue-reading .articles-related .article-header .article-title {
   margin: 27px 0 25px;
+}
+
+@media screen and (max-width: 767px) {
+  .section-main-article .article-table-contents .toc-item {
+    padding: 14px 30px 14px 39px;
+    font-size: 14px;
+  }
+  .section-main-article .w-richtext h2 {
+    font-size: 30px;
+    margin: 0 0 34px 0;
+  }
+  .section-continue-reading .articles-related {
+    grid-row-gap: 27px;
+  }
+  .section-continue-reading .articles-related .article-header {
+    margin-bottom: 32px;
+  }
+  .section-continue-reading .articles-related .article-header img {
+    aspect-ratio: 329/258;
+  }
+  .section-continue-reading .articles-related .article-header .article-title {
+    margin: 35px 0 30px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
