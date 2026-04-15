@@ -2387,6 +2387,7 @@ body .dark-mode .nav-menu .nav-has-mega .mega-menu .menu_sub-wrap .right-panel .
 .blog-main-content .tag-articles:hover {
   color: white;
   background: #32c0cf;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 767px) {
